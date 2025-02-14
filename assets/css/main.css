@@ -331,9 +331,9 @@ header>p {
 	margin: 0;
 }
 
-footer {
+/* footer {
 	margin: 3em 0 0 0;
-}
+} */
 
 footer>p {
 	font-size: 1.25em;
@@ -2111,7 +2111,7 @@ ul.actions li:first-child {
 .wrapper {
 	background-image: url("images/bg.png");
 	box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-	padding: 8em 0 8em 0;
+	padding: 1em 0 8em 0;
 	text-align: center;
 }
 
@@ -2227,7 +2227,7 @@ ul.actions li:first-child {
 	border-top: solid 0.6em #282828;
 }
 
-@media screen and (max-width: 1211px) {
+@media screen and (max-width: 1174px) {
 
 	#nav {
 		height: 7em;
@@ -2240,12 +2240,14 @@ ul.actions li:first-child {
 	#llmlogo {
 		height: 50%;
 	}
-	#vldblogo{
+
+	#vldblogo {
 		height: 50%;
 	}
 
 }
-@media screen and (max-width: 821px) {
+
+@media screen and (max-width: 833px) {
 
 	#navul {
 		display: none;
@@ -2254,13 +2256,16 @@ ul.actions li:first-child {
 	#nav {
 		height: 3.5em;
 	}
+
 	body {
 		padding-top: 3.5em;
 	}
+
 	#llmlogo {
 		height: 100%;
 	}
-	#vldblogo{
+
+	#vldblogo {
 		height: 100%;
 	}
 
