@@ -305,11 +305,11 @@ br.clear {
 
 hr {
 	border: 0;
-	border-top: solid 1px #444;
+	border-top: solid 2px #444;
 	border-top-color: rgba(0, 0, 0, 0.35);
 	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 	height: 1px;
-	margin: 3em 0;
+	margin: 1em 0;
 }
 
 /* p, ul, ol, dl, table {
@@ -2461,9 +2461,9 @@ body>article {
 		font-size: 1.25em;
 	}
 
-	hr {
+	/* hr {
 		margin: 1.5em 0 2em 0;
-	}
+	} */
 
 	/* Section/Article */
 
