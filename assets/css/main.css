@@ -287,6 +287,7 @@ h1 strong {
 h2 {
 	font-size: 2em;
 	letter-spacing: -0.015em;
+	margin-top: 20px;
 }
 
 h3 {
@@ -2219,7 +2220,7 @@ ul.actions li:first-child {
 	content: '';
 	display: block;
 	position: absolute;
-	bottom: -0.6em;
+	bottom: -1.0em;
 	left: 50%;
 	margin-left: -0.75em;
 	border-left: solid 0.75em transparent;
@@ -2269,6 +2270,11 @@ ul.actions li:first-child {
 		height: 100%;
 	}
 
+}
+
+
+#sponsor {
+	width: 180px;
 }
 
 /* Articles */
@@ -2438,6 +2444,10 @@ body>article {
 	h6 {
 		font-size: 1.25em;
 		margin: 0 0 0.4em 0;
+	}
+
+	#sponsor {
+		width: 150px;
 	}
 
 	h1 {
