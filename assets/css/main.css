@@ -2446,6 +2446,10 @@ body>article {
 		width: 150px;
 	}
 
+	#sponsor h2 {
+		padding: 1px;
+	}
+
 	h1 {
 		font-size: 2.25em;
 		line-height: 1.25em;
