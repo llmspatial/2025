@@ -27,8 +27,9 @@
 	}
 
 	.sponsorDiv {
-		width: 280px;
+		width: 300px;
 	}
+
 	.sponsorDiv h2 {
 		padding: 5px;
 	}
@@ -45,7 +46,8 @@
 
 <body class="is-preload">
 	<!-- sponsor -->
-	<div id="sponsor" class="sponsorDiv" style="position: fixed; right: 0; bottom: 0; transform: translateY(-50%); z-index: 9999;">
+	<div id="sponsor" class="sponsorDiv"
+		style="position: fixed; right: 0; bottom: 0; transform: translateY(-50%); z-index: 9999;">
 		<h2 style="text-align: center; margin-bottom: -1px; background-color: #282828; color: white">Sponsored by</h2>
 		<a href="https://journal.hep.com.cn/fcs/EN/2095-2228/current.shtml" target="_blank">
 			<img style="width: 100%;" src="images/FCS.png" alt="" />
@@ -68,23 +70,27 @@
 			<li style="margin-right: 0px;"><a href="#submission">Submission</a></li>
 		</ul>
 		<span id="vldblogo" style="margin-right: 15px; margin-left: 20px; display: flex; align-items: center;">
-			<img src="images/vldbv2.png" alt="" style="height: 85%;">
+			<a href="https://vldb.org/2025/" target="_blank" class="no-hover">
+				<img src="images/vldbv2.png" alt="" style="height: 90%;">
+			</a>
 		</span>
 	</nav>
 
 
 	<!-- top -->
 	<article id="top" class="wrapper style1"
-		style="background-image: url('images/background1.png'); background-size: cover;">
+		style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.8) 100%), url('images/background1.png'); background-size: cover;">
 		<div class="container" style="text-align: center;">
-			<h1 style="line-height: 1.5; margin-top:0; margin-bottom: 0.35em;"><strong>1st Large Language Models for
-					Spatial-rich Data
-					Management (LLM+Spatial)</strong></h1>
-			<p>In conjunction with <a href="https://vldb.org/2025/" target="_blank">the 51st International
-					Conference on Very Large Data Bases (VLDB)</a></p>
+			<h1 style="line-height: 1.5; margin-top:0; margin-bottom: 0.35em;">
+				<strong>1st Large Language Models for Spatial-rich Data Management (LLM+Spatial)</strong>
+			</h1>
+			<p>In conjunction with <a href="https://vldb.org/2025/" target="_blank">the 51st International Conference on
+					Very Large Data Bases (VLDB)</a></p>
 			<p>London, United Kingdom - September 5, afternoon, 2025</p>
 		</div>
 	</article>
+
+
 
 	<!-- overview -->
 	<article id="overview" class="wrapper style2">

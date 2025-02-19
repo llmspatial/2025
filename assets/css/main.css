@@ -2228,6 +2228,21 @@ ul.actions li:first-child {
 	border-top: solid 0.6em #282828;
 }
 
+/* 取消 vldblogo 链接的悬浮效果 */
+#vldblogo a.no-hover {
+	background: none;
+	color: inherit;
+	text-decoration: none;
+	margin-top: 10px;
+	height: 90%;
+}
+
+#vldblogo a.no-hover:hover {
+	background: none;
+	color: inherit;
+}
+
+
 @media screen and (max-width: 1174px) {
 
 	#nav {
@@ -2348,6 +2363,28 @@ body>article {
 
 #copyright a:hover {
 	color: #777;
+}
+
+
+@media screen and (max-width: 7680px) {
+	#sponsor {
+		width: 300px;
+	}
+
+	#sponsor h2 {
+		padding: 8px;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	#sponsor {
+		width: 200px;
+	}
+
+	#sponsor h2 {
+		font-size: 1.5em;
+		padding: 1px;
+	}
 }
 
 /* Large */
