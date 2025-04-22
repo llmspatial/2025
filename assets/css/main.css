@@ -1703,7 +1703,7 @@ table.default {
 }
 
 table.default tr {
-	border-top: solid 1px #eee;
+	border-top: solid 1px #c3c3c3;
 }
 
 table.default tr:first-child {
